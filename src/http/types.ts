@@ -110,6 +110,7 @@ export enum DeviceType {
   INDOOR_PT_CAMERA_C220_V2 = 10010, // T8W11C (Type 10010)
   INDOOR_PT_CAMERA_C220_V3 = 10011, // T8419N
   CAMERA_C35 = 10035, //T8110
+  T814X  = 10037, //T814X eufyCam C37
 }
 
 export enum ParamType {
