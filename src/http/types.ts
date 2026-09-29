@@ -10871,6 +10871,8 @@ export const DeviceCommands: Commands = {
 
 DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220_V2] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220];
 DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220_V3] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220];
+DeviceCommands[DeviceType.T814X] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_E30];
+
 
 export const StationCommands: Commands = {
   [DeviceType.STATION]: [
