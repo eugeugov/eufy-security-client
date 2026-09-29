@@ -10065,6 +10065,7 @@ export const StationProperties: Properties = {
 
 StationProperties[DeviceType.INDOOR_PT_CAMERA_C220_V2] = StationProperties[DeviceType.INDOOR_PT_CAMERA_C220];
 StationProperties[DeviceType.INDOOR_PT_CAMERA_C220_V3] = StationProperties[DeviceType.INDOOR_PT_CAMERA_C220];
+StationProperties[DeviceType.T814X] = StationProperties[DeviceType.INDOOR_PT_CAMERA_E30];
 
 export enum CommandName {
   DeviceStartLivestream = "deviceStartLivestream",
