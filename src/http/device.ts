@@ -2082,6 +2082,7 @@ export class Device extends TypedEmitter<DeviceEvents> {
       type == DeviceType.INDOOR_COST_DOWN_CAMERA ||
       type == DeviceType.INDOOR_PT_CAMERA_S350 ||
       type == DeviceType.INDOOR_PT_CAMERA_E30 ||
+      type == DeviceType.T814X ||
       type == DeviceType.INDOOR_PT_CAMERA_C210 ||
       type == DeviceType.INDOOR_PT_CAMERA_C220 ||
       type == DeviceType.INDOOR_PT_CAMERA_C220_V2
