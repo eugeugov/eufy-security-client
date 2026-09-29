@@ -11328,3 +11328,5 @@ export const StationCommands: Commands = {
 
 StationCommands[DeviceType.INDOOR_PT_CAMERA_C220_V2] = StationCommands[DeviceType.INDOOR_PT_CAMERA_C220];
 StationCommands[DeviceType.INDOOR_PT_CAMERA_C220_V3] = StationCommands[DeviceType.INDOOR_PT_CAMERA_C220];
+StationCommands[DeviceType.T814X] = StationCommands[DeviceType.INDOOR_PT_CAMERA_E30];
+
