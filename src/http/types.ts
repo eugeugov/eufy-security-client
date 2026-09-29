@@ -8832,6 +8832,8 @@ export const DeviceProperties: Properties = {
 
 DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220_V2] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220];
 DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220_V3] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220];
+DeviceProperties[DeviceType.T814X] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_E30];
+
 
 export const StationNameProperty: PropertyMetadataString = {
   key: "station_name",
