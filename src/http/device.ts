@@ -1995,7 +1995,8 @@ export class Device extends TypedEmitter<DeviceEvents> {
       type == DeviceType.SMART_DROP ||
       type == DeviceType.OUTDOOR_PT_CAMERA ||
       type == DeviceType.SOLOCAM_E42 ||
-      type == DeviceType.ENTRY_SENSOR_E20
+      type == DeviceType.ENTRY_SENSOR_E20 ||
+      type == DeviceType.T814X
     );
   }
   static isStation(type: number): boolean {
