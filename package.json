@@ -44,7 +44,7 @@
     "url": "https://github.com/bropat/eufy-security-client"
   },
   "engines": {
-    "node": ">=20.15.1"
+    "node": ">=22.13.0"
   },
   "dependencies": {
     "@cospired/i18n-iso-languages": "^4.2.0",
