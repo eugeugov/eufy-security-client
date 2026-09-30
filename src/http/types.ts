@@ -8832,7 +8832,7 @@ export const DeviceProperties: Properties = {
 
 DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220_V2] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220];
 DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220_V3] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_C220];
-DeviceProperties[DeviceType.T814X] = DeviceProperties[DeviceType.INDOOR_PT_CAMERA_E30];
+DeviceProperties[DeviceType.T814X] = DeviceProperties[DeviceType.CAMERA_C35];
 
 
 export const StationNameProperty: PropertyMetadataString = {
@@ -10065,7 +10065,7 @@ export const StationProperties: Properties = {
 
 StationProperties[DeviceType.INDOOR_PT_CAMERA_C220_V2] = StationProperties[DeviceType.INDOOR_PT_CAMERA_C220];
 StationProperties[DeviceType.INDOOR_PT_CAMERA_C220_V3] = StationProperties[DeviceType.INDOOR_PT_CAMERA_C220];
-StationProperties[DeviceType.T814X] = StationProperties[DeviceType.INDOOR_PT_CAMERA_E30];
+StationProperties[DeviceType.T814X] = StationProperties[DeviceType.CAMERA_C35];
 
 export enum CommandName {
   DeviceStartLivestream = "deviceStartLivestream",
@@ -10871,7 +10871,7 @@ export const DeviceCommands: Commands = {
 
 DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220_V2] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220];
 DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220_V3] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_C220];
-DeviceCommands[DeviceType.T814X] = DeviceCommands[DeviceType.INDOOR_PT_CAMERA_E30];
+DeviceCommands[DeviceType.T814X] = DeviceCommands[DeviceType.CAMERA_C35];
 
 
 export const StationCommands: Commands = {
@@ -11328,5 +11328,5 @@ export const StationCommands: Commands = {
 
 StationCommands[DeviceType.INDOOR_PT_CAMERA_C220_V2] = StationCommands[DeviceType.INDOOR_PT_CAMERA_C220];
 StationCommands[DeviceType.INDOOR_PT_CAMERA_C220_V3] = StationCommands[DeviceType.INDOOR_PT_CAMERA_C220];
-StationCommands[DeviceType.T814X] = StationCommands[DeviceType.INDOOR_PT_CAMERA_E30];
+StationCommands[DeviceType.T814X] = StationCommands[DeviceType.CAMERA_C35];
 
