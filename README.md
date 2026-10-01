@@ -1,9 +1,3 @@
-eufyCam C37 T814X support added
-through mapping to C35
-
-- Guard Mode switching works
-- No P2P stream support guaranteed 
-
 
 # eufy-security-client
 
